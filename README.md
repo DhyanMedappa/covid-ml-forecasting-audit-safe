@@ -40,8 +40,8 @@ This project addresses this by building predictive models that estimate:
 - Time period: 2020 – 2022
 - Granularity: Daily time-series
 - Regions: UK, Germany, Austria, Bavaria
-⚠️ Dataset not included due to size (~150MB).  
-Available here: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
+- ⚠️ Dataset not included in github due to size (~150MB).  
+
 ---
 
 ## ⚙️ Methodology
@@ -108,8 +108,8 @@ The project includes a full suite of diagnostic, forecasting, and interpretabili
 - Evaluates model performance across both historical (2021) and forward (2022) evaluation windows
 - Demonstrates how well lag-based features capture epidemic wave dynamics
 
-📁 `reports/figures/deaths_forecast_2021.png`  
-📁 `reports/figures/deaths_forecast_2022.png`
+![Deaths Forecast 2021](reports/figures/deaths_forecast_2021.png)  
+![Deaths Forecast 2022](reports/figures/deaths_forecast_2022.png)
 
 ---
 
@@ -118,7 +118,7 @@ The project includes a full suite of diagnostic, forecasting, and interpretabili
 - Captures lagged relationship between infections and healthcare burden
 - Validates operational forecasting capability for real-world resource planning
 
-📁 `reports/figures/hospital_capacity.jpeg`
+![Hospital Capacity](reports/figures/hospital_capacity.jpeg)
 
 ---
 
@@ -127,7 +127,7 @@ The project includes a full suite of diagnostic, forecasting, and interpretabili
 - Highlights model generalization improvements from 2021 → 2022 evaluation windows
 - Shows performance stability across heterogeneous healthcare systems
 
-📁 `reports/figures/mae_comparison.jpeg`
+![MAE Comparison](reports/figures/mae_comparison.jpeg)
 
 ---
 
@@ -135,7 +135,7 @@ The project includes a full suite of diagnostic, forecasting, and interpretabili
 - Identifies most influential epidemiological drivers (lagged cases, autoregressive signals, growth rates)
 - Confirms model reliance on meaningful temporal and biological signals rather than noise
 
-📁 `reports/figures/feature_importance.jpeg`
+![Feature Importance](reports/figures/feature_importance.jpeg)
 
 ---
 
@@ -144,14 +144,14 @@ The project includes a full suite of diagnostic, forecasting, and interpretabili
 - Detects systematic deviations during structural regime shifts (e.g., Omicron wave)
 - Validates robustness of forecasting assumptions under distribution shift
 
-📁 `reports/figures/residual_analysis.jpeg`
+![Residual Analysis](reports/figures/residual_analysis.jpeg)
 
 ---
 
 ### 📌 Presentation
 A full technical presentation summarizing methodology, results, and insights is also included:
 
-📄 `reports/COVID_Presentation.pdf`
+📄 [`COVID_Presentation.pdf`](reports/COVID_Presentation.pdf)
 
 ---
 
